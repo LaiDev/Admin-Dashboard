@@ -107,7 +107,7 @@ header {
     color: black;
 }
 
-.project-container {
+.card-container {
 
     width: 70vw;
     height: auto;
@@ -121,23 +121,44 @@ header {
 
     align-items: center;
     justify-items: center;
- 
+
+    color: rgb(22, 16, 54);
+
 }
 
 .card {
     max-width: 900px;
     padding: 10px;
     background-color: rgba(232, 228, 255, 0.397);
-    border-left: 10px red solid;
+    border-left: 10px rgb(148, 230, 255) solid;
     border-radius: 5px;
 
 }
 
-.card-title {
-    font-weight: bold;
-    font-size: 1.75rem;
+.card:hover
+{
+
+   border-left: 10px white solid;
+
 }
 
+.card-title {
+    font-weight: bolder;
+    font-size: 1.75rem;
+    color: #160038;
+}
+
+.icons
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+img
+{
+    width: 45px;
+    height: 45px;
+}
 
 .announcement {
     max-height: 350px;
