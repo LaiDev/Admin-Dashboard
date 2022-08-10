@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+
+body {
+    height: 100vh;
+    background-color: #1f044b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content {
+    height: 90%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: .25fr 1fr 1fr 1fr;
+    background-color: #4e36a8;
+    border-radius: 10px;
+}
+
+header {
+    grid-row: 1/1;
+    grid-column: 2/5;
+    margin: 0 15px;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-icon {
+    width: 40px;
+    height: 40px;
+}
+
+#search-bar {
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: black 2px solid;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 1.65rem;
+}
+
+.user-profile-pic {
+    font-size: 2rem;
+    border: 2px black solid;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+.side-bar {
+    grid-row: 1/5;
+    grid-column: 1/1;
+
+    display: flex;
+    align-items: center;
+    line-height: 4;
+    flex-direction: column;
+
+
+    border-right: 2px solid white;
+    color: white;
+
+    font-weight: bold;
+
+}
+
+.logo {
+    font-size: 3rem;
+    color: black;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.788);
+}
+
+
+.side-bar li {
+
+    list-style: none;
+    font-size: 2rem;
+
+}
+
+.side-bar li:hover {
+    color: black;
+}
+
+.project-container {
+
+    width: 70vw;
+    height: auto;
+
+    grid-row: 2/5;
+    grid-column: 2/5;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+    align-items: center;
+    justify-items: center;
+ 
+}
+
+.card {
+    max-width: 900px;
+    padding: 10px;
+    background-color: rgba(232, 228, 255, 0.397);
+    border-left: 10px red solid;
+    border-radius: 5px;
+
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+
+.announcement {
+    max-height: 350px;
+    height: 300px;
+
+    grid-column: 3/3;
+    grid-row: 1/2;
+}
+
+.trending {
+    grid-column: 3/3;
+    grid-row: 2/4;
+}
