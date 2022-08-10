@@ -8,7 +8,7 @@ View the live project here : [Admin DashBoard](https://laidev.github.io/Admin-Da
 
 This is my admin dashBoard in correlation with the [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard).
 
-!(Img/Screenshot 2022-08-10 at 12-05-11 Admin DashBoard.png)
+![image](https://user-images.githubusercontent.com/70034760/183959513-c68a9796-3eef-4ca6-b108-6190570d5d28.png)
 
 ### Note
 
